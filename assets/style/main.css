@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
 /* style for all elements */
+:root {
+  --orange: #ff5400;
+  --black: #131318;
+  --dark: #424247;
+  --white: #fff;
+  --mainpara: rgba(19, 19, 24, 0.7);
+  --subpara: #5a5a5d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,4 +18,75 @@
 
 body {
   font-family: "Mulish", sans-serif;
+}
+
+/* common css style  */
+
+.container {
+  max-width: 1170px;
+  width: 81%;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  color: var(--orange);
+}
+
+/* header css style */
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 20px;
+  margin-top: 2rem;
+}
+
+.header .site-content {
+  width: 45%;
+}
+
+.header .site-content a {
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-content {
+  width: 55%;
+}
+
+.header .site-content a .img img {
+  width: 100%;
+}
+
+.header .site-content a .title {
+  margin-left: 0.7em;
+}
+
+.header .site-content a .title h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--black);
+}
+
+.header .nav-content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .nav-content ul li a {
+  color: var(--dark);
+  font-size: 1.2rem;
+}
+
+.header .nav-content ul li .active {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.header .nav-content ul li:last-child {
+  display: none;
 }

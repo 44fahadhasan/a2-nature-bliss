@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  /* header css  */
+  .header .site-content {
+    width: 70%;
+  }
+  .header .nav-content {
+    width: 30%;
+  }
+  .header .nav-content ul {
+    justify-content: end;
+  }
+  .header .nav-content ul li {
+    display: none;
+  }
+  .header .nav-content ul .fa-bars {
+    font-size: 1.7rem;
+  }
+  .header .nav-content ul li:last-child {
+    display: block;
+  }
+}
