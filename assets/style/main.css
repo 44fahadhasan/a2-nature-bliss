@@ -40,17 +40,28 @@ span {
 h2 {
   color: var(--black);
   font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 13px;
+}
+
+p {
+  color: var(--mainpara);
+  line-height: 1.5rem;
 }
 
 button {
   background-color: var(--orange);
-  padding: 14px 34px;
+  padding: 14px 35px;
   border: 0;
   border-radius: 5px;
   color: var(--white);
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
+button:hover {
+  cursor: pointer;
+}
 /* header css style */
 
 /* header .header-top top */
@@ -165,4 +176,38 @@ button {
 
 .header .banner .banner-input .find {
   padding: 10px 30px;
+  font-size: 15px;
+}
+
+/* main section css style */
+
+/* popular tours css */
+.popular-tours {
+  margin-top: 100px;
+  display: flex;
+}
+
+.popular-tours .content {
+  width: 55%;
+  padding-right: 55px;
+}
+
+.popular-tours .content .list {
+  margin: 30px;
+}
+
+.popular-tours .content .list ul li {
+  margin-top: 15px;
+}
+
+.popular-tours .content .list ul li::marker {
+  color: var(--mainpara);
+}
+
+.popular-tours .image {
+  width: 45%;
+}
+
+.popular-tours .image img {
+  width: 100%;
 }

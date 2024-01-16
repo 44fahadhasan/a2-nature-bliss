@@ -1,4 +1,11 @@
+/* responsive for mobile phone*/
+
 @media only screen and (max-width: 600px) {
+  /* common css style  */
+  h2 {
+    font-size: 2rem;
+  }
+
   /* header css style */
 
   /* header top */
@@ -46,4 +53,20 @@
     margin: auto;
     display: block;
   }
+
+  /* main section css style */
+
+  /* popular tours css */
+  .popular-tours {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .popular-tours .content,
+  .popular-tours .image {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* hfgdhsg */
 }
