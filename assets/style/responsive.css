@@ -77,30 +77,12 @@
     gap: 10px;
   }
 
-  .destination .img-gallery .one {
-    grid-area: auto;
-  }
-
-  .destination .img-gallery .two {
-    grid-area: auto;
-  }
-
-  .destination .img-gallery .three {
-    grid-area: auto;
-  }
-
-  .destination .img-gallery .four {
-    grid-area: auto;
-  }
-
-  .destination .img-gallery .five {
-    grid-area: auto;
-  }
-
-  .destination .img-gallery .six {
-    grid-area: auto;
-  }
-
+  .destination .img-gallery .one,
+  .destination .img-gallery .two,
+  .destination .img-gallery .three,
+  .destination .img-gallery .four,
+  .destination .img-gallery .five,
+  .destination .img-gallery .six,
   .destination .img-gallery .seven {
     grid-area: auto;
   }
@@ -143,6 +125,4 @@
   .footer-top p {
     width: 90%;
   }
-
-  /* end */
 }

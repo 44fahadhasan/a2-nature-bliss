@@ -64,6 +64,7 @@ button {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
 button:hover {
   cursor: pointer;
   background-color: #ff5500c7;
@@ -175,6 +176,7 @@ small {
   margin: 0 auto;
   margin-top: 30px;
   line-height: 1.6rem;
+  color: var(--white);
 }
 
 .header .banner .banner-input {
@@ -238,7 +240,6 @@ small {
 }
 
 /* destination css style  */
-
 .destination {
   margin-top: 100px;
 }
