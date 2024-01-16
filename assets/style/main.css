@@ -382,7 +382,7 @@ small {
 .testimonial .testimonial-box .testimonial-item .img img {
   border: 2px solid var(--orange);
   border-radius: 50%;
-  /* padding: 5px; */
+  object-fit: cover;
   width: 100%;
 }
 
