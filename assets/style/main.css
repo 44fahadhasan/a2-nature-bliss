@@ -348,8 +348,83 @@ button:hover {
   margin-bottom: 20px;
 }
 
+/* newsletter css style */
+.newsletter {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.newsletter .news-content * {
+  margin-bottom: 20px;
+}
+
+.newsletter .news-content {
+  border: 1px solid var(--orange);
+  width: 45%;
+  padding: 30px;
+}
+
+.newsletter .news-content .new-input input {
+  display: block;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: rgba(19, 19, 24, 0.05);
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+
+.newsletter .news-content .new-input input::placeholder {
+  color: rgba(19, 19, 24, 0.3);
+}
+
+.newsletter .news-content .new-input input[type="submit"] {
+  background-color: var(--orange);
+  padding: 14px 35px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.newsletter .news-content .new-input input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.newsletter .news-img {
+  width: 55%;
+  position: relative;
+}
+
+.newsletter .news-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsletter .news-img .discount p {
+  color: var(--white);
+}
+
+.newsletter .news-img .discount {
+  background-color: var(--orange);
+  padding: 20px 25px;
+  color: var(--white);
+  width: 40%;
+  text-align: center;
+  border-radius: 7px;
+  position: absolute;
+  top: 63%;
+  right: 1%;
+  transform: rotate(-30deg);
+}
+
 /* footer css style */
 footer {
+  margin-top: 100px;
   background-color: rgba(19, 19, 24, 0.05);
 }
 
@@ -358,12 +433,12 @@ footer {
 }
 
 .footer-top .content-wrap {
-  margin-bottom: 13px;
+  margin-bottom: 30px;
 }
 
 .footer-top p {
   margin: 0px auto;
-  margin-bottom: 23px;
+  margin-bottom: 35px;
   color: var(--subpara);
   width: 70%;
   text-align: center;
@@ -383,6 +458,11 @@ footer {
 
 .footer-top .social a {
   padding: 0px 15px;
+}
+
+.footer-top .social a i {
+  color: var(--black);
+  font-size: 1.5rem;
 }
 
 .footer-bottom {

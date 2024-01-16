@@ -120,5 +120,25 @@
   .footer-top p {
     width: 90%;
   }
+
+  /* newsletter css style */
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter .news-content {
+    border: 1px solid var(--orange);
+    width: 100%;
+  }
+
+  .newsletter .news-img .discount {
+    top: 55%;
+    right: 2%;
+  }
+
+  .newsletter .news-img {
+    width: 100%;
+  }
+
   /* end */
 }
