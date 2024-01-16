@@ -8,6 +8,7 @@
   --white: #fff;
   --mainpara: rgba(19, 19, 24, 0.7);
   --subpara: #5a5a5d;
+  --input: rgba(19, 19, 24, 0.5);
 }
 
 * {
@@ -36,57 +37,132 @@ span {
   color: var(--orange);
 }
 
+h2 {
+  color: var(--black);
+  font-weight: 800;
+}
+
+button {
+  background-color: var(--orange);
+  padding: 14px 34px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: 600;
+}
+
 /* header css style */
-.header {
+
+/* header .header-top top */
+.header .header-top {
   display: flex;
   align-items: center;
   min-height: 20px;
-  margin-top: 2rem;
+  margin-top: 30px;
 }
 
-.header .site-content {
+.header .header-top .site-content {
   width: 45%;
 }
 
-.header .site-content a {
+.header .header-top .site-content a {
   display: flex;
   align-items: center;
 }
 
-.header .nav-content {
+.header .header-top .nav-content {
   width: 55%;
 }
 
-.header .site-content a .img img {
+.header .header-top .site-content a .img img {
   width: 100%;
 }
 
-.header .site-content a .title {
+.header .header-top .site-content a .title {
   margin-left: 0.7em;
 }
 
-.header .site-content a .title h2 {
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--black);
+.header .header-top .site-content a .title h2 {
+  font-size: 2.2rem;
 }
 
-.header .nav-content ul {
+.header .header-top .nav-content ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-.header .nav-content ul li a {
+.header .header-top .nav-content ul li a {
   color: var(--dark);
   font-size: 1.2rem;
 }
 
-.header .nav-content ul li .active {
+.header .header-top .nav-content ul li .active {
   color: var(--orange);
   font-weight: 700;
 }
 
-.header .nav-content ul li:last-child {
+.header .header-top .nav-content ul li:last-child {
   display: none;
+}
+
+/* header bottom banner css */
+.header .banner {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  min-height: 500px;
+  border-radius: 10px;
+}
+
+.header .banner .banner-title {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header .banner .banner-title h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.header .banner .banner-title p {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  line-height: 1.6rem;
+}
+
+.header .banner .banner-input {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.header .banner .banner-input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  margin: 0px 5px;
+}
+
+.header .banner .banner-input input::placeholder {
+  color: var(--input);
+}
+
+.header .banner .banner-input input[type="submit"] {
+  color: var(--input);
+}
+
+.header .banner .banner-input .find {
+  padding: 10px 30px;
 }

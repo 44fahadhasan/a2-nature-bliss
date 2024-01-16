@@ -1,21 +1,49 @@
 @media only screen and (max-width: 600px) {
-  /* header css  */
-  .header .site-content {
+  /* header css style */
+
+  /* header top */
+  .header .header-top .site-content {
     width: 70%;
   }
-  .header .nav-content {
+
+  .header .header-top .nav-content {
     width: 30%;
   }
-  .header .nav-content ul {
+
+  .header .header-top .nav-content ul {
     justify-content: end;
   }
-  .header .nav-content ul li {
+
+  .header .header-top .nav-content ul li {
     display: none;
   }
-  .header .nav-content ul .fa-bars {
+
+  .header .header-top .nav-content ul .fa-bars {
     font-size: 1.7rem;
   }
-  .header .nav-content ul li:last-child {
+
+  .header .header-top .nav-content ul li:last-child {
+    display: block;
+  }
+
+  /* header bottom banner css */
+
+  .header .banner .banner-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .header .banner .banner-title p {
+    width: 90%;
+  }
+
+  .header .banner .banner-input input {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .header .banner .banner-input .find {
+    width: 95%;
+    margin: auto;
     display: block;
   }
 }

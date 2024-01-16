@@ -18,8 +18,9 @@
   </head>
   <body>
     <!-- header section starts here from -->
-    <header>
-      <div class="container header">
+    <header class="header">
+      <!-- header top markup -->
+      <div class="container header-top">
         <div class="site-content">
           <a href="#">
             <div class="img">
@@ -44,6 +45,39 @@
             </li>
           </ul>
         </nav>
+      </div>
+
+      <!-- header bottom bannar markup -->
+      <div class="container banner">
+        <div class="banner-title">
+          <h1>Explore Your Travel</h1>
+          <p>
+            Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+            adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+          </p>
+        </div>
+        <div class="banner-input">
+          <form action="">
+            <input type="search" name="" id="" placeholder="Where go" />
+            <input list="time" placeholder="When" />
+            <datalist id="time">
+              <option value="Morninig 10am"></option>
+              <option value="Night 10am"></option>
+            </datalist>
+            <input list="location" placeholder="Location" />
+            <datalist id="location">
+              <option value="Bangladesh"></option>
+              <option value="India"></option>
+            </datalist>
+            <button class="find" type="button">
+              <i
+                style="margin-right: 5px"
+                class="fa-solid fa-magnifying-glass"
+              ></i>
+              Find Now
+            </button>
+          </form>
+        </div>
       </div>
     </header>
     <!-- header section ends here from -->
