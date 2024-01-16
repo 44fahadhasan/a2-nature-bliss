@@ -116,5 +116,9 @@
     flex-basis: 100%;
   }
 
+  /* footer css style */
+  .footer-top p {
+    width: 90%;
+  }
   /* end */
 }

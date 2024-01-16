@@ -65,6 +65,18 @@ button {
   font-weight: 600;
 }
 
+hr {
+  border-color: rgba(19, 19, 24, 0.1);
+}
+
+small {
+  color: var(--black);
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin-top: 35px;
+}
+
 .section-article {
   text-align: center;
   width: 60%;
@@ -334,4 +346,46 @@ button:hover {
 
 .choose .card-wrapper .card .card-img {
   margin-bottom: 20px;
+}
+
+/* footer css style */
+footer {
+  background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-top {
+  padding-top: 110px;
+}
+
+.footer-top .content-wrap {
+  margin-bottom: 13px;
+}
+
+.footer-top p {
+  margin: 0px auto;
+  margin-bottom: 23px;
+  color: var(--subpara);
+  width: 70%;
+  text-align: center;
+}
+
+.footer-top .content-wrap a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top .social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.footer-top .social a {
+  padding: 0px 15px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-bottom: 100px;
 }
