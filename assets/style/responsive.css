@@ -105,5 +105,16 @@
     grid-area: auto;
   }
 
+  /* choose css style */
+  .choose .card-wrapper {
+    gap: 14px;
+  }
+
+  .choose .card-wrapper .one,
+  .choose .card-wrapper .two,
+  .choose .card-wrapper .three {
+    flex-basis: 100%;
+  }
+
   /* end */
 }

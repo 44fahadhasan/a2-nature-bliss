@@ -44,6 +44,12 @@ h2 {
   margin-bottom: 13px;
 }
 
+h4 {
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
 p {
   color: var(--mainpara);
   line-height: 1.5rem;
@@ -277,4 +283,55 @@ button:hover {
 
 .destination .img-gallery .seven {
   grid-area: 3/6/4/13;
+}
+
+/* choose css style */
+.choose {
+  margin-top: 100px;
+}
+
+.choose .card-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.choose .card-wrapper .card {
+  padding: 20px;
+}
+
+.choose .card-wrapper .one {
+  flex-basis: calc(50% - 18px);
+  border-radius: 10px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background-color: rgba(251, 181, 99, 0.05);
+}
+
+.choose .card-wrapper .two {
+  flex-basis: calc(50% - 18px);
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.choose .card-wrapper .three {
+  flex-basis: 50%;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.choose .card-wrapper .card p {
+  color: var(--subpara);
+  text-align: justify;
+}
+
+.choose .card-wrapper .card h4 {
+  margin-bottom: 10px;
+}
+
+.choose .card-wrapper .card .card-img {
+  margin-bottom: 20px;
 }
