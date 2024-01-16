@@ -116,9 +116,8 @@
     flex-basis: 100%;
   }
 
-  /* footer css style */
-  .footer-top p {
-    width: 90%;
+  .testimonial .testimonial-box {
+    flex-direction: column;
   }
 
   /* newsletter css style */
@@ -138,6 +137,11 @@
 
   .newsletter .news-img {
     width: 100%;
+  }
+
+  /* footer css style */
+  .footer-top p {
+    width: 90%;
   }
 
   /* end */
